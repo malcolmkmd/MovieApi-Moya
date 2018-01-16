@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03E8C14A306081450D0DB389 /* Pods_MovieApi_Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812A094A89FAC206E5B62F0E /* Pods_MovieApi_Moya.framework */; };
 		9D140FE3200E2CF1007559DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D140FE2200E2CF1007559DE /* AppDelegate.swift */; };
-		9D140FE5200E2CF1007559DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D140FE4200E2CF1007559DE /* ViewController.swift */; };
-		9D140FE8200E2CF1007559DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D140FE6200E2CF1007559DE /* Main.storyboard */; };
 		9D140FEA200E2CF1007559DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D140FE9200E2CF1007559DE /* Assets.xcassets */; };
 		9D140FED200E2CF1007559DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D140FEB200E2CF1007559DE /* LaunchScreen.storyboard */; };
+		9D40718B200E30BC001A14FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40718A200E30BC001A14FF /* MainViewController.swift */; };
+		9D40718D200E3179001A14FF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40718C200E3179001A14FF /* Movie.swift */; };
+		9D407191200E4857001A14FF /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D407190200E4857001A14FF /* Results.swift */; };
+		9D407193200E4C25001A14FF /* MovieApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D407192200E4C25001A14FF /* MovieApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		812A094A89FAC206E5B62F0E /* Pods_MovieApi_Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieApi_Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D140FDF200E2CF1007559DE /* MovieApi+Moya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MovieApi+Moya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D140FE2200E2CF1007559DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D140FE4200E2CF1007559DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D140FE7200E2CF1007559DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D140FE9200E2CF1007559DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D140FEC200E2CF1007559DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D140FEE200E2CF1007559DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D40718A200E30BC001A14FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9D40718C200E3179001A14FF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9D407190200E4857001A14FF /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		9D407192200E4C25001A14FF /* MovieApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApi.swift; sourceTree = "<group>"; };
+		A62B5640E0C51FEFAB5ADD36 /* Pods-MovieApi+Moya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApi+Moya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieApi+Moya/Pods-MovieApi+Moya.debug.xcconfig"; sourceTree = "<group>"; };
+		E887D4259953C13481CB1F94 /* Pods-MovieApi+Moya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApi+Moya.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieApi+Moya/Pods-MovieApi+Moya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E8C14A306081450D0DB389 /* Pods_MovieApi_Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75350FC72AD43BBAD4D33DBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A62B5640E0C51FEFAB5ADD36 /* Pods-MovieApi+Moya.debug.xcconfig */,
+				E887D4259953C13481CB1F94 /* Pods-MovieApi+Moya.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D140FD6200E2CF1007559DE = {
 			isa = PBXGroup;
 			children = (
 				9D140FE1200E2CF1007559DE /* MovieApi+Moya */,
 				9D140FE0200E2CF1007559DE /* Products */,
+				75350FC72AD43BBAD4D33DBA /* Pods */,
+				BD53F77A1EAD384C2F954CE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,64 @@
 		9D140FE1200E2CF1007559DE /* MovieApi+Moya */ = {
 			isa = PBXGroup;
 			children = (
-				9D140FE2200E2CF1007559DE /* AppDelegate.swift */,
-				9D140FE4200E2CF1007559DE /* ViewController.swift */,
-				9D140FE6200E2CF1007559DE /* Main.storyboard */,
+				9D140FF6200E2D6A007559DE /* Application */,
+				9D140FF8200E2DEC007559DE /* Model */,
+				9D407189200E308F001A14FF /* ViewController */,
+				9D140FF5200E2CFC007559DE /* Networking */,
+				9D140FF7200E2D72007559DE /* Supporting Files */,
 				9D140FE9200E2CF1007559DE /* Assets.xcassets */,
-				9D140FEB200E2CF1007559DE /* LaunchScreen.storyboard */,
-				9D140FEE200E2CF1007559DE /* Info.plist */,
 			);
 			path = "MovieApi+Moya";
+			sourceTree = "<group>";
+		};
+		9D140FF5200E2CFC007559DE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9D407192200E4C25001A14FF /* MovieApi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9D140FF6200E2D6A007559DE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9D140FE2200E2CF1007559DE /* AppDelegate.swift */,
+				9D140FEB200E2CF1007559DE /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9D140FF7200E2D72007559DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D140FEE200E2CF1007559DE /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D140FF8200E2DEC007559DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D40718C200E3179001A14FF /* Movie.swift */,
+				9D407190200E4857001A14FF /* Results.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D407189200E308F001A14FF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D40718A200E30BC001A14FF /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BD53F77A1EAD384C2F954CE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				812A094A89FAC206E5B62F0E /* Pods_MovieApi_Moya.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D140FF1200E2CF1007559DE /* Build configuration list for PBXNativeTarget "MovieApi+Moya" */;
 			buildPhases = (
+				E409EE4711172F12F787EC36 /* [CP] Check Pods Manifest.lock */,
 				9D140FDB200E2CF1007559DE /* Sources */,
 				9D140FDC200E2CF1007559DE /* Frameworks */,
 				9D140FDD200E2CF1007559DE /* Resources */,
+				925C19CC5542A15B5616F402 /* [CP] Embed Pods Frameworks */,
+				A188AAC349C5AEFBE70357E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +198,85 @@
 			files = (
 				9D140FED200E2CF1007559DE /* LaunchScreen.storyboard in Resources */,
 				9D140FEA200E2CF1007559DE /* Assets.xcassets in Resources */,
-				9D140FE8200E2CF1007559DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		925C19CC5542A15B5616F402 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MovieApi+Moya/Pods-MovieApi+Moya-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovieApi+Moya/Pods-MovieApi+Moya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A188AAC349C5AEFBE70357E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovieApi+Moya/Pods-MovieApi+Moya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E409EE4711172F12F787EC36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieApi+Moya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D140FDB200E2CF1007559DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D140FE5200E2CF1007559DE /* ViewController.swift in Sources */,
 				9D140FE3200E2CF1007559DE /* AppDelegate.swift in Sources */,
+				9D40718B200E30BC001A14FF /* MainViewController.swift in Sources */,
+				9D407193200E4C25001A14FF /* MovieApi.swift in Sources */,
+				9D407191200E4857001A14FF /* Results.swift in Sources */,
+				9D40718D200E3179001A14FF /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9D140FE6200E2CF1007559DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D140FE7200E2CF1007559DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9D140FEB200E2CF1007559DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,11 +397,12 @@
 		};
 		9D140FF2200E2CF1007559DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62B5640E0C51FEFAB5ADD36 /* Pods-MovieApi+Moya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B534EWRJTS;
-				INFOPLIST_FILE = "MovieApi+Moya/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MovieApi+Moya/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mdevsa.MovieApi-Moya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +413,12 @@
 		};
 		9D140FF3200E2CF1007559DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E887D4259953C13481CB1F94 /* Pods-MovieApi+Moya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B534EWRJTS;
-				INFOPLIST_FILE = "MovieApi+Moya/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MovieApi+Moya/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mdevsa.MovieApi-Moya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
