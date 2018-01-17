@@ -14,7 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let appStartVC = MainViewController()
+        let provider = NetworkManager()
+        let appStartVC = MainViewController(networkProvider: provider)
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = appStartVC
         self.window?.makeKeyAndVisible()

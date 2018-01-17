@@ -79,7 +79,6 @@
 				9D140FF6200E2D6A007559DE /* Application */,
 				9D140FF8200E2DEC007559DE /* Model */,
 				9D407189200E308F001A14FF /* ViewController */,
-				9D140FF5200E2CFC007559DE /* Networking */,
 				9D140FF7200E2D72007559DE /* Supporting Files */,
 				9D140FE9200E2CF1007559DE /* Assets.xcassets */,
 			);
@@ -125,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				9D40718A200E30BC001A14FF /* MainViewController.swift */,
+				9D140FF5200E2CFC007559DE /* Networking */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";

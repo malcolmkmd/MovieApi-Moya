@@ -19,9 +19,9 @@ extension Results: Decodable {
     
     private enum ResultsCodingKeys: String, CodingKey {
         case page
-        case numberOfResults
-        case numberOfPages
-        case movies
+        case numberOfResults = "total_results"
+        case numberOfPages = "total_pages"
+        case movies = "results"
     }
     
     init(from decoder: Decoder) throws {

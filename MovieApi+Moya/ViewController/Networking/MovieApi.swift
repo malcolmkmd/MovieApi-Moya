@@ -29,7 +29,7 @@ extension MovieApi: TargetType {
         case .popular:
             return "popular"
         case .newMovies:
-            return ""
+            return "now_playing"
         case .video(let id):
             return "\(id)/videos"
         }

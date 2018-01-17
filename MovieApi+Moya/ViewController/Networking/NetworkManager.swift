@@ -9,11 +9,16 @@
 import Foundation
 import Moya
 
-struct NetworkManager {
+protocol Network {
+    associatedtype T: TargetType
+    var provider: MoyaProvider<T> { get }
+}
+
+struct NetworkManager: Network {
     static let MovieAPIKey = "7a312711d0d45c9da658b9206f3851dd"
-    static let provider = MoyaProvider<MovieApi>(plugins: [NetworkLoggerPlugin(verbose: true)])
+    let provider = MoyaProvider<MovieApi>(plugins: [NetworkLoggerPlugin(verbose: true)])
     
-    static func getNewMovies(page: Int, completion: @escaping ([Movie])->()){
+    func getNewMovies(page: Int, completion: @escaping ([Movie])->()){
         provider.request(.newMovies(page: page)) { result in
             switch result {
             case let .success(response):
