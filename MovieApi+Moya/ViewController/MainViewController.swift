@@ -13,5 +13,8 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
+        NetworkManager.getNewMovies(page: 88) { movies in 
+            
+        }
     }
 }

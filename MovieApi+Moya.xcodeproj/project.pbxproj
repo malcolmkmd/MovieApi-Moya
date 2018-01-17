@@ -15,6 +15,7 @@
 		9D40718D200E3179001A14FF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40718C200E3179001A14FF /* Movie.swift */; };
 		9D407191200E4857001A14FF /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D407190200E4857001A14FF /* Results.swift */; };
 		9D407193200E4C25001A14FF /* MovieApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D407192200E4C25001A14FF /* MovieApi.swift */; };
+		9D407195200F324C001A14FF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D407194200F324C001A14FF /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9D40718C200E3179001A14FF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		9D407190200E4857001A14FF /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		9D407192200E4C25001A14FF /* MovieApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApi.swift; sourceTree = "<group>"; };
+		9D407194200F324C001A14FF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A62B5640E0C51FEFAB5ADD36 /* Pods-MovieApi+Moya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApi+Moya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieApi+Moya/Pods-MovieApi+Moya.debug.xcconfig"; sourceTree = "<group>"; };
 		E887D4259953C13481CB1F94 /* Pods-MovieApi+Moya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApi+Moya.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieApi+Moya/Pods-MovieApi+Moya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 		9D140FF5200E2CFC007559DE /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				9D407194200F324C001A14FF /* NetworkManager.swift */,
 				9D407192200E4C25001A14FF /* MovieApi.swift */,
 			);
 			path = Networking;
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D407195200F324C001A14FF /* NetworkManager.swift in Sources */,
 				9D140FE3200E2CF1007559DE /* AppDelegate.swift in Sources */,
 				9D40718B200E30BC001A14FF /* MainViewController.swift in Sources */,
 				9D407193200E4C25001A14FF /* MovieApi.swift in Sources */,
